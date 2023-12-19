@@ -1,0 +1,16 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  .navbar-item-active {
+    @apply underline decoration-solid decoration-4 underline-offset-8;
+  }
+  .navbar-item-inactive {
+  }
+}
+
+.leaflet-container {
+  width: 95%;
+  height: 65vh;
+}

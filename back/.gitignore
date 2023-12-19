@@ -1,0 +1,18 @@
+# dependencies
+node_modules
+*.env
+*.idea
+package-lock.json
+.editorconfig
+yarn.lock
+yarn-error
+logs
+log
+
+# misc
+.DS_store
+
+# 업로드 파일 자동 생성 미들웨어 만들시 주석 해제
+# # user profile img storage
+# uploads
+.vscode

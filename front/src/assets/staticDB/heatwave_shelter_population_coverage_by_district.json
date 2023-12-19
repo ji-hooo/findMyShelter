@@ -1,0 +1,137 @@
+{
+  "metadata": {
+    "title": "서울시 행정구역별 인구 대비 무더위 쉼터 수용인원",
+    "summary": "🏆 우수 자치구 : 종로구, 구로구, 성북구, 중구, 도봉구\n☠️ 미흡 자치구 : 강남구, 서초구, 관악구, 은평구, 광진구",
+    "commentary": "인구 대비 무더위 쉼터 수용인원율이 가장 높은 자치구는 종로구(4.15%)로, 서울시 평균(1.69%) 대비 146.01% 높습니다.\n\n인구 대비 무더위 쉼터 수용인원율이 가장 낮은 자치구는 강남구(0.4%)로, 서울시 평균(1.69%) 대비 76.47% 낮습니다.",
+    "type" : "bar"
+  },
+  "options": {
+    "responsive": true,
+    "maintainAspectRatio": false,
+    "redraw": true,
+    "scaleShowValues": true,
+    "scales": {
+      "x": {
+        "ticks": {
+          "autoSkip": false
+        }
+      }
+    }
+  },
+  "data": {
+    "datasets": [{
+      "label": "비율 (%)",
+      "backgroundColor": "rgb(245, 158, 11)",
+      "data": [
+        {
+          "district": "서울시",
+          "heatwave_shelter_capacity_to_population_ratio": 1.69
+        },
+        {
+          "district": "종로구",
+          "heatwave_shelter_capacity_to_population_ratio": 4.15
+        },
+        {
+          "district": "중구",
+          "heatwave_shelter_capacity_to_population_ratio": 2.99
+        },
+        {
+          "district": "용산구",
+          "heatwave_shelter_capacity_to_population_ratio": 1.75
+        },
+        {
+          "district": "성동구",
+          "heatwave_shelter_capacity_to_population_ratio": 1.73
+        },
+        {
+          "district": "광진구",
+          "heatwave_shelter_capacity_to_population_ratio": 1.18
+        },
+        {
+          "district": "동대문구",
+          "heatwave_shelter_capacity_to_population_ratio": 1.58
+        },
+        {
+          "district": "중랑구",
+          "heatwave_shelter_capacity_to_population_ratio": 2.01
+        },
+        {
+          "district": "성북구",
+          "heatwave_shelter_capacity_to_population_ratio": 3.03
+        },
+        {
+          "district": "강북구",
+          "heatwave_shelter_capacity_to_population_ratio": 1.52
+        },
+        {
+          "district": "도봉구",
+          "heatwave_shelter_capacity_to_population_ratio": 2.8
+        },
+        {
+          "district": "노원구",
+          "heatwave_shelter_capacity_to_population_ratio": 1.7
+        },
+        {
+          "district": "은평구",
+          "heatwave_shelter_capacity_to_population_ratio": 0.96
+        },
+        {
+          "district": "서대문구",
+          "heatwave_shelter_capacity_to_population_ratio": 1.19
+        },
+        {
+          "district": "마포구",
+          "heatwave_shelter_capacity_to_population_ratio": 1.81
+        },
+        {
+          "district": "양천구",
+          "heatwave_shelter_capacity_to_population_ratio": 1.68
+        },
+        {
+          "district": "강서구",
+          "heatwave_shelter_capacity_to_population_ratio": 1.91
+        },
+        {
+          "district": "구로구",
+          "heatwave_shelter_capacity_to_population_ratio": 3.62
+        },
+        {
+          "district": "금천구",
+          "heatwave_shelter_capacity_to_population_ratio": 1.48
+        },
+        {
+          "district": "영등포구",
+          "heatwave_shelter_capacity_to_population_ratio": 1.54
+        },
+        {
+          "district": "동작구",
+          "heatwave_shelter_capacity_to_population_ratio": 2.53
+        },
+        {
+          "district": "관악구",
+          "heatwave_shelter_capacity_to_population_ratio": 0.62
+        },
+        {
+          "district": "서초구",
+          "heatwave_shelter_capacity_to_population_ratio": 0.53
+        },
+        {
+          "district": "강남구",
+          "heatwave_shelter_capacity_to_population_ratio": 0.4
+        },
+        {
+          "district": "송파구",
+          "heatwave_shelter_capacity_to_population_ratio": 1.03
+        },
+        {
+          "district": "강동구",
+          "heatwave_shelter_capacity_to_population_ratio": 1.79
+        }
+      ],
+      "parsing": {
+        "xAxisKey": "district",
+        "yAxisKey": "heatwave_shelter_capacity_to_population_ratio"
+      }
+    }]
+  }
+}
